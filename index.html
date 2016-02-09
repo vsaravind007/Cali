@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>The Missing Menubar Calendar Widget On Mac</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Respomsive slider -->
+    <link href="css/bootstrap-datetimepicker.min.css" rel="stylesheet">
+  </head>
+  <body style="background-color:#DFDFDF;">
+    <div class="container">
+<div style="overflow:hidden;">
+    <div class="form-group" style="padding-top:15px;">
+        <div class="row">
+            <div class="col-md-8" style="overflow:hidden;">
+                <div id="datetimepicker12"></div>
+            </div>
+        </div>
+    </div>
+</div>
+    </div>
+    <script src="js/jquery.js"></script>
+    <script src="js/moment.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/collapse.js"></script>
+    <script src="js/transition.js"></script>
+    <script src="js/bootstrap-datetimepicker.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $('#datetimepicker12').datetimepicker({
+                inline: true,
+                format: 'DD/MM/YYYY'
+            });
+      });
+    </script>
+  </body>
+</html>
