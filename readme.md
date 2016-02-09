@@ -1,4 +1,5 @@
 Cali - The missing menubar calendar widget in Mac OSX
+http://cali.aravindvs.com
 ===================
 
 ![](http://cali.aravindvs.com/cali.png)
@@ -16,4 +17,6 @@ npm install
 npm run build
 ```
  
+ **Dependencies**
+ Built using Electron & Menubar app plugin for Electron.
 
